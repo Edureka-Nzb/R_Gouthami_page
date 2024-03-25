@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+    integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="product.css">
+    <script src="product.js"></script>
+</head>
+<body>
+
+    <!--==Navigation================================-->
+    <nav class="navigation">
+        <!--logo-------->
+        <a href="#index.html" class="logo">
+            <span>e</span>Grocery
+        </a>
+        <!--menu-btn---->
+        <input type="checkbox" class="menu-btn" id="menu-btn">
+        <label for="menu-btn" class="menu-icon">
+            <span class="nav-icon"></span>
+        </label>
+        <!--menu-------->
+        <ul class="menu">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="category.html">Categories</a></li>
+            <li><a href="product.html">product</a></li>
+            <li><a href="popular-product.html">Our Packages</a></li>
+            <li><a href="clients.html">clients</a></li>
+            <li><a href="ourapp.html">Our App</a></li>
+        </ul>
+        <!--right-nav-(cart-like)-->
+        <div class="right-nav">
+            <!--like----->
+            <a href="login form.html" class="like">
+                <i class="fa-solid fa-user"></i>
+                <!-- <span>0</span> -->
+            </a>
+            <!--cart----->
+            <a href="#" class="cart">
+                <i class="fas fa-shopping-cart"></i>
+                <span>0</span>
+            </a>
+        </div>
+    </nav>
+    <!--nav-end--------------------->
+
+    <!--==Products====================================-->
+    
+
+    <section id="popular-product">
+        <!--heading----------->
+        <div class="product-heading">
+            <h3>Popular Product</h3>
+            <!-- <span>All</span> -->
+        </div>
+        <!--box-container------>
+        <div class="product-container">
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="apple pic.JPEG"  data="1">
+                <strong>Apple</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <!-- <i class="far fa-heart"></i> -->
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="chill.jpeg">
+                <strong>Chili</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <!-- <i class="far fa-heart"></i> -->
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="onins.JPEG">
+                <strong>Onion</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">1$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <!-- <i class="far fa-heart"></i> -->
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="potato.JPEG">
+                <strong>Patato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">2.2$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <!-- <i class="fa-sharp fa-solid fa-heart"></i> -->
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="garlic pic.JPEG">
+                <strong>Garlic</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">3$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart
+                </a>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <!-- <i class="far fa-heart"></i> -->
+                </a>
+            </div>
+            <!--box---------->
+            <div class="product-box">
+                <img alt="apple" src="tamato.JPEG">
+                <strong>Tamato</strong>
+                <span class="quantity">1 KG</span>
+                <span class="price">1.4$</span>
+                <!--cart-btn------->
+                <a href="#" class="cart-btn">
+                    <i class="fas fa-shopping-bag"></i> Add Cart</a>
+                <ul class="cart-items"></ul>
+                <!--like-btn------->
+                <a href="#" class="like-btn">
+                    <!-- <i class="far fa-heart"></i> -->
+                </a>
+            </div>
+        </div>
+    </section>
+    <!--popular-product-end--------------------->
+
+</body>
+
+</html>
